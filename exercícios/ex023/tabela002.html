@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -35,9 +36,18 @@
             color: white;
 
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
 
         .num {
             text-align: right;
+        }
+        tbody > tr:nth-child(even){
+
+            background-color: rgba(128, 128, 128, 0.411);
         }
     </style>
 </head>
@@ -65,6 +75,11 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>Macapá</td>
+                <td class="num">7 569 238</td>
+            </tr>
+
         </tbody>
         <tfoot>
             <tr>
@@ -73,6 +88,7 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque itaque fuga asperiores repellendus consectetur repellat nemo vel tempore sint doloribus, ea odio tempora, quae, perspiciatis nesciunt aliquid quia. Corrupti, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, odit. Labore optio beatae, iusto laborum cupiditate, sed deserunt at molestiae dolor obcaecati saepe quasi voluptas dolorum id tempore sequi error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt hic quisquam dolore facere accusantium dolores a placeat, eos ab, minima eligendi porro, iusto pariatur soluta dignissimos dolorum. Ad, eligendi suscipit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium delectus suscipit nostrum voluptatem doloribus, ipsam maiores voluptatum maxime sed in, repudiandae veniam? Distinctio a repudiandae quo. Reiciendis autem architecto ipsum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores fuga nobis voluptatem, dolorem officia repellat! Temporibus molestiae at laborum corporis minima eveniet sapiente? Iusto ex, modi ullam suscipit et ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis recusandae animi eveniet et aliquam, fuga pariatur porro culpa tempora rerum doloribus voluptate, itaque quia quaerat, eos repellendus facere nihil aspernatur?</p>
 </body>
 
 </html>
